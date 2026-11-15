@@ -1,0 +1,19 @@
+GABRIEL ALMEIDA DA SILVA — PASSOS PARA ENTREGA
+
+Este ZIP contém arquivos adaptados do projeto original, mas NÃO inclui o histórico Git.
+Para preservar o histórico original, clone o repositório com git clone e copie os arquivos modificados deste ZIP para dentro da pasta clonada (sem substituir .git).
+
+1. git clone https://github.com/VictorThomaz/projeto_calculadora_js_nav.git
+2. cd projeto_calculadora_js_nav
+3. git switch -c gabriel_almeida_da_silva
+4. Copie os arquivos deste ZIP para essa pasta, substituindo os correspondentes.
+5. Teste com: py -m pip install -r requirements.txt && py app.py
+6. git add .
+7. git commit -m "Adiciona multiplicacao e divisao e identifica autor"
+8. Crie um repositório PUBLICO VAZIO no seu GitHub (sem README inicial).
+9. git remote rename origin professor
+10. git remote add origin https://github.com/SEU_USUARIO/calculadora-flask-gabriel.git
+11. git push -u origin gabriel_almeida_da_silva
+12. Crie um arquivo entrega.txt com o link público do repositório.
+
+Para ter commits separados por operação, aplique e registre cada alteração em etapas, em vez de copiar todos os arquivos de uma vez.

@@ -1,6 +1,10 @@
 # Calculadora Web (Python Flask HTML e JavaScript)
 
-Este projeto é um exemplo didático de como usar **Python + Flask + HTML + JavaScript** para criar uma calculadora simples com páginas de **Soma** e **Subtração**.
+**Aluno: Gabriel Almeida da Silva — Ciências da Computação, UNIFESO.**
+
+Projeto adaptado do repositório original de VictorThomaz: https://github.com/VictorThomaz/projeto_calculadora_js_nav
+
+Este projeto é um exemplo didático de como usar **Python + Flask + HTML + JavaScript** para criar uma calculadora simples com páginas de **Soma**, **Subtração**, **Multiplicação** e **Divisão**.
 
 ---
 
@@ -24,7 +28,9 @@ projeto_calculadora_web/
 ├── templates/          # Páginas HTML
 │   ├── index.html
 │   ├── soma.html
-│   └── subtracao.html
+│   ├── subtracao.html
+│   ├── multiplicacao.html
+│   └── divisao.html
 └── static/             # Arquivos estáticos
 └── script.js
 ```
@@ -90,3 +96,6 @@ http://127.0.0.1:5000
 ```
 
 Para encerrar a aplicação, volte ao terminal e pressione `Ctrl+C`.
+## Novas operações
+
+Foram adicionadas páginas e APIs para multiplicação e divisão. A divisão por zero apresenta mensagem de erro ao usuário.
